@@ -4,5 +4,5 @@
 
 ### Start App
 
-- run `make backend`
-- run `make frontend`
+- run `make start-backend`
+- run `make start-frontend`
