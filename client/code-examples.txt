@@ -1,0 +1,32 @@
+var pythonCode = `
+import time
+
+# Print the number 5 five times with 1 second interval
+for i in range(5):
+  print(i)
+  time.sleep(1)  # Wait for 1 second before the next print
+
+fjfdj
+`
+
+var nodeCode = `
+	let counter = 0;
+	setInterval(() => console.log(counter++), 1000)
+`
+
+var goCode = `
+	package main
+
+	import (
+		"fmt"
+		"time"
+	)
+
+	func main() {
+		fmt.Println("Hello from GO")
+		time.Sleep(time.Second * 1)
+		fmt.Println("Hello from GO 2")
+		time.Sleep(time.Second * 1)
+		fmt.Println("Hello from GO 3")
+	}
+`

@@ -1,0 +1,2 @@
+- [ ] - better docker security configuration to disable ability to create files from source code
+- [ ] - communication between docker containers

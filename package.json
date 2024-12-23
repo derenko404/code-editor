@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-select": "^5.9.0"
+  },
+  "devDependencies": {
+    "prettier": "3.4.2"
+  }
+}

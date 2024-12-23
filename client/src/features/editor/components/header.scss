@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  padding: 0 10px;
+  height: 10%;
+  background: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-buttons button {
+  height: 40px;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.header-buttons button:hover {
+  opacity: 0.8;
+}
+
+.header-buttons button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.header-buttons button img {
+  width: 30px;
+  height: 30px;
+}
+
+.header-buttons .play-button {
+  color: #6cc24a;
+  border: 2px solid #6cc24a;
+  padding: 5px 15px;
+}
+
+.header-buttons .stop-button {
+  color: tomato;
+  border: 2px solid tomato;
+  padding: 5px 15px;
+}
+
+.header .select {
+  max-width: 250px;
+  min-width: 250px;
+  font-size: 14px;
+}

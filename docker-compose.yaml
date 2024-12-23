@@ -1,0 +1,19 @@
+services:
+  python-service:
+    build: ./configs/python
+    container_name: python-service
+    tty: true
+    read_only: false
+
+  node-service:
+    build: ./configs/node
+    container_name: node-service
+    tty: true
+    read_only: false
+    command: bash
+
+  go-service:
+    build: ./configs/go
+    container_name: go-service
+    tty: true
+    read_only: false
