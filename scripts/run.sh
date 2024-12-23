@@ -5,7 +5,7 @@ language="$2"
 timestamp=$(date +%s)
 
 script_path=scripts/languages/$language.sh
-timeout_time="3s"
+timeout_time="60s"
 
 setup_variables() {
   if [ -f "$script_path" ]; then

@@ -1,2 +1,3 @@
-- [ ] - better docker security configuration to disable ability to create files from source code
-- [ ] - communication between docker containers
+- [ ] - better docker security configuration to prevent ability to create files from source code
+- [ ] - communication between docker containers when backend started inside docker
+- [ ] - other possible ways to run code instead of separate container and cmd?
