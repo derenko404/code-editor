@@ -1,6 +1,6 @@
 ### Code Editor
 
-./public/code-editor.mov
+![Code Editor Gif](https://github.com/derenko404/code-editor/blob/master/public/code-editor.gif)
 
 ### Start App
 
